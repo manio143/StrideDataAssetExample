@@ -1,0 +1,8 @@
+!Stride.Core.Assets.DataAsset%25601[[StrideDataAssetExample.CustomDataAsset,StrideDataAssetExample]],Stride.Core.Assets
+Id: 1f13e93c-d081-49bb-b357-0f7418fd3f5a
+SerializedVersion: {Stride: 1.0.0.0}
+Tags: []
+Converter: !StrideDataAssetExample.CustomDataAssetConverter,StrideDataAssetExample {}
+Data: !StrideDataAssetExample.CustomDataAssetDesign,StrideDataAssetExample
+    Length: 5
+    Seed: 8384619

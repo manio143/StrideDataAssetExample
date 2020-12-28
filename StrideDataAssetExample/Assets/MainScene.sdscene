@@ -1,0 +1,40 @@
+!SceneAsset
+Id: aac3ad44-ae47-40b9-8a0f-92517aa09b41
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! aa860b0e-0865-4194-9b48-531cb148a1c8
+        - ref!! 831f4c0c-9bd0-49b0-bd05-c1098dbf489f
+    Parts:
+        -   Entity:
+                Id: 831f4c0c-9bd0-49b0-bd05-c1098dbf489f
+                Name: TestScript
+                Components:
+                    2df6eb5d75f239348d89fc8fe19568cf: !TransformComponent
+                        Id: 162ffba2-44d9-40f1-b100-15e4ca955e15
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cf0e6751ed0616cf74ec1407f1cb508b: !StrideDataAssetExample.TestScript,StrideDataAssetExample
+                        Id: 9d1836a8-d971-4ff5-aad9-8b1ce79af8e1
+                        CustomDataAsset: 1f13e93c-d081-49bb-b357-0f7418fd3f5a:CustomAsset
+                        SimpleData: a4889725-d3c7-4eff-9dad-8ee804c48e66:SimpleAsset
+        -   Entity:
+                Id: aa860b0e-0865-4194-9b48-531cb148a1c8
+                Name: Camera
+                Components:
+                    96c2ac5b576ff4164e7c53fb04645b09: !TransformComponent
+                        Id: 124db143-18af-4771-99d4-45c1f5b15b03
+                        Position: {X: 2.6, Y: 0.6, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.82903755, Z: 0.0, W: 0.5591929}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cf551b1a9a1d3b8ee0c8afe178b26581: !CameraComponent
+                        Id: 8d02e41e-6d24-4532-b4c5-2df55ff2468c
+                        Name: null
+                        Projection: Perspective
+                        Slot: 1c4b24cc-75bb-46a3-bdd7-dab09a46f54e

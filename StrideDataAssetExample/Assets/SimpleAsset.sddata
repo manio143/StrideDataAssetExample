@@ -1,0 +1,8 @@
+!Stride.Core.Assets.DataAsset%25601[[Stride.Core.Assets.Data%25601[[StrideDataAssetExample.SimpleDataAsset,StrideDataAssetExample]],Stride.Core.Serialization]],Stride.Core.Assets
+Id: a4889725-d3c7-4eff-9dad-8ee804c48e66
+SerializedVersion: {Stride: 1.0.0.0}
+Tags: []
+Converter: null
+Data: !StrideDataAssetExample.SimpleDataAsset,StrideDataAssetExample
+    MyText: A quick brown fox jumped over a lazy dog.
+    MyNumber: 20
